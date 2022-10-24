@@ -1,1 +1,56 @@
-Hello World.
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Co. Name / Such Abbr.</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="#"
+		>
+		<link
+			rel="stylesheet">
+			href="#"
+		>
+		<script
+			src="#">
+		</script>
+
+		<!--
+			These lattermost items are dedicated towards the maintenance of an embedded calendar
+		-->
+
+		<link
+			rel="stylesheet"
+			href="lib/main.css"
+		>
+		<script
+			src="lib/main.js">
+		</script>
+
+		<!--
+			Supposing that this calendar could hold events that the company is involved with
+		-->
+
+		<script>
+			document.addEventListener('DOMContentLoaded',function(){
+				var calendarElement = document.getElementById('calendar');
+				var calendar = new.fullCalendar.Calendar(calendarElement, {
+					events: [
+						{
+							title: 'Given Event',
+							start: '2022-10-25',
+							end: '2022-10-26'
+						}
+					]
+				});
+				calendar.render();
+			});
+		</script>
+	</head>
+
+	<body>
+		<!-- https://codepen.io/Shaikat/pen/PapGpr https://developer.mozilla.org/en-US/docs/Web/SVG/Element/textPath rotating svg text-->
+    uh oh
+	</body>
+</html>
