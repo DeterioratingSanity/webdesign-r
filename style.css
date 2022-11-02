@@ -18,8 +18,8 @@ body::-webkit-scrollbar {
   text-align:center;
   animation: shift 5s var(--ease-in-out-3) alternate infinite;
   border-radius: var(--radius-blob-1);
-  height:45vh;
-  width:45vh;
+  height:45vmin;
+  width:45vmin;
   margin:auto;
   top:25vh;
   /*
