@@ -8,7 +8,7 @@ body::-webkit-scrollbar {
       display: none;
 }
 #head{
-  background-image: var(--gradient-19);
+  background-image: var(--gradient-19); /*Or 30*/
   height:105vh;
   -webkit-mask: var(--mask-edge-scalloped-bottom);
 }
