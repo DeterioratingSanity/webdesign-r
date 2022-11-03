@@ -12,9 +12,10 @@
 			rel="stylesheet"
 			href="style.css"
 		>
-		<script
-			src="#">
-		</script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
 
 		<!--
 
@@ -57,10 +58,41 @@ https://scrollmagic.io/examples/advanced/section_wipes_manual.html -> slides
     <div id="head">
 			<div id="logo"><p id="heroText"><span class="heroMid">T</span>itle titl<span class="heroMid">E</span></p>
 			</div>
-
 		</div>
-		<div id="body">
-
+		<div id="pinMaster">
+		  <div id="pinContainer">
+		    <section class="panel one">
+		    </section>
+		    <section class="panel two">
+		      <b>Pin Panel B</b>
+		    </section>
+		    <section class="panel three">
+		      <b>Pin Panel C</b>
+		    </section>
+		       <section class="panel four">
+		      <b>Pin Panel D</b>
+		    </section>
+		  </div>
 		</div>
+
+<script>
+TweenLite.defaultEase = Linear.easeNone;
+var controller = new ScrollMagic.Controller();
+var tl = new TimelineMax();
+tl.from("section.panel.two", 1, {xPercent: 150});
+tl.from("section.panel.three", 1, {xPercent: -150});
+tl.from("section.panel.four", 1, {yPercent: -150});
+
+
+new ScrollMagic.Scene({
+  triggerElement: "#pinMaster",
+  triggerHook: "onLeave",
+  duration: "200%"
+})
+  .setPin("#pinMaster")
+  .setTween(tl)
+  .addTo(controller);
+
+</script>
 	</body>
 </html>
