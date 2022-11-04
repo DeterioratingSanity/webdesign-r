@@ -4,11 +4,11 @@
 *{
   margin: 0;
 }
-
+/*
 *::selection{
   background-color: white;
   color:black;
-}
+} */
 body::-webkit-scrollbar {
       display: none;
 }
