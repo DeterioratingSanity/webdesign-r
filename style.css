@@ -26,9 +26,6 @@ body::-webkit-scrollbar {
   /*
   */
 }
-.logo::selection{
-  background-color: white;
-}
 .heroText{
    margin-top:0;
    position:absolute;
@@ -44,6 +41,9 @@ body::-webkit-scrollbar {
    white-space:nowrap;
    font-weight: var(--font-weight-4);
    font-family: var(--font-serif);
+}
+.heroText::selection{
+  background-color: white;
 }
 .heroMid{
   vertical-align:middle;
