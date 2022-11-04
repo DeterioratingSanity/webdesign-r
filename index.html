@@ -99,6 +99,7 @@ var tl = new TimelineMax();
 tl.from("section.panel.two", 1, {xPercent: 150});
 tl.from("section.panel.three", 1, {yPercent: -150});
 tl.from("section.panel.four", 1, {yPercent: 150});
+tl.from("section.panel.five", 1, {xPercept: 150});
 
 
 new ScrollMagic.Scene({
@@ -113,7 +114,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
 	triggerElement: "#trigger"
 })
-.setTween("#log", 0.0001, {backgroundImage: "var(--gradient-19)", position:"sticky"})
+.setTween("#log", 0.0001, {backgroundImage: "var(--gradient-19)"})
 .addTo(controller);
 
 new ScrollMagic.Scene({
