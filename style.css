@@ -3,31 +3,30 @@
 
 *{
   margin: 0;
-  scroll-snap-type: y proximity;
 }
 html{
 }
 body::-webkit-scrollbar {
       display: none;
 }
-#head{
+.head{
   background-image: var(--gradient-19); /*Or 30*/
   height:100vh;
 }
-#logo{
+.logo{
   position:relative;
   background-color:white;
   text-align:center;
   animation: shift 5s var(--ease-in-out-3) alternate infinite;
   border-radius: var(--radius-blob-1);
   height:45vmin;
-  width:45vmin;
+  aspect-ratio:1/1;
   margin:auto;
   top:25vh;
   /*
   */
 }
-#heroText{
+.heroText{
    margin-top:0;
    position:absolute;
    top: 50%;
@@ -57,7 +56,6 @@ body::-webkit-scrollbar {
 #body{
   height:100vh;
   position:relative;
-  margin-top: -10vh;
 }
 
 b {
@@ -74,11 +72,13 @@ b {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  scroll-snap-type: y mandatory;
 }
 .panel {
   height: 100%;
   width: 100%;
   position: absolute;
+  scroll-snap-align:center;
 }
 
 #pinMaster {
@@ -96,8 +96,14 @@ b {
 .four {
   background-image: var(--gradient-4);
 }
-.box{
-  aspect-ratio: 1/1;
-  height:10em;
-  background-color: var(--green-7);
+
+.sect{
+  position:relative;
+  height:50vh;
+  width:50%;
+  margin:auto;
+  top:25vh;
+  background-color: white;
+  border-radius: var(--radius-4);
+  box-shadow: var(--shadow-3);  /*inner-shadow?*/
 }

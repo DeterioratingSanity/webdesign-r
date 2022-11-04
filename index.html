@@ -55,24 +55,40 @@
 https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type  https://codepen.io/jh3y/pen/eYrwBJB
 https://scrollmagic.io/examples/advanced/section_wipes_manual.html -> slides
 -->
-    <div id="head">
-			<div id="logo"><p id="heroText"><span class="heroMid">T</span>itle titl<span class="heroMid">E</span></p>
+    <div class="head">
+			<div class="logo"><p class="heroText"><span class="heroMid">T</span>itle titl<span class="heroMid">E</span></p>
 			</div>
 		</div>
+
 		<div id="pinMaster">
 		  <div id="pinContainer">
 		    <section class="panel one">
+		      <div class="sect">
+						a
+					</div>
 		    </section>
 		    <section class="panel two">
-		      <b>Pin Panel B</b>
+		      <div class="sect">
+a
+					</div>
 		    </section>
 		    <section class="panel three">
-		      <b>Pin Panel C</b>
+		      <div class="sect">
+a
+					</div>
 		    </section>
-		       <section class="panel four">
-		      <b>Pin Panel D</b>
+		    <section class="panel four">
+		      <div class="sect">
+a
+					</div>
 		    </section>
 		  </div>
+		</div>
+
+		<div class="head" id="toggle">
+			<div class="logo" id="log"><span id="logTex"><p class="heroText"><span class="heroMid">T</span>itle titl<span class="heroMid">E</span></p>
+			</span></div>
+			<div id="trigger"></div>
 		</div>
 
 <script>
@@ -80,8 +96,8 @@ TweenLite.defaultEase = Linear.easeNone;
 var controller = new ScrollMagic.Controller();
 var tl = new TimelineMax();
 tl.from("section.panel.two", 1, {xPercent: 150});
-tl.from("section.panel.three", 1, {xPercent: -150});
-tl.from("section.panel.four", 1, {yPercent: -150});
+tl.from("section.panel.three", 1, {yPercent: -150});
+tl.from("section.panel.four", 1, {yPercent: 150});
 
 
 new ScrollMagic.Scene({
@@ -92,6 +108,18 @@ new ScrollMagic.Scene({
   .setPin("#pinMaster")
   .setTween(tl)
   .addTo(controller);
+
+new ScrollMagic.Scene({
+	triggerElement: "#trigger"
+})
+.setTween("#log", 0.0001, {backgroundImage: "var(--gradient-19)", position:"sticky"})
+.addTo(controller);
+
+new ScrollMagic.Scene({
+	triggerElement: "#trigger"
+})
+.setTween("#toggle", 0.0001, {backgroundImage: "none", position:"relative"})
+.addTo(controller);
 
 </script>
 	</body>
