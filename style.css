@@ -26,6 +26,9 @@ body::-webkit-scrollbar {
   /*
   */
 }
+.logo::selection{
+  background-color: white;
+}
 .heroText{
    margin-top:0;
    position:absolute;
