@@ -2,13 +2,7 @@
 @import "https://unpkg.com/open-props/masks.edges.min.css";
 
 *{
-  margin: 0;
-}
-/*
-*::selection{
-  background-color: white;
-  color:black;
-} */
+  margin: 0;}
 body::-webkit-scrollbar {
       display: none;
 }
@@ -45,6 +39,7 @@ body::-webkit-scrollbar {
    font-weight: var(--font-weight-4);
    font-family: var(--font-serif);
 }
+
 .heroMid{
   vertical-align:middle;
 }
@@ -108,5 +103,10 @@ b {
   top:25vh;
   background-color: white;
   border-radius: var(--radius-4);
-  box-shadow: var(--shadow-3);  /*inner-shadow?*/
+  box-shadow: var(--shadow-4);  /* inner-shadow? */
+  font-family:var(--font-sans);
+}
+.con{
+  padding:1vmin 1.5vmax;
+  font-size:4vmin;
 }
