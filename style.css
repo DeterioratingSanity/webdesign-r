@@ -3,9 +3,6 @@
 
 *{
   margin: 0;}
-body::-webkit-scrollbar {
-      display: none;
-}
 .head{
   background-image: var(--gradient-19); /*Or 30*/
   height:100vh;
@@ -87,12 +84,15 @@ b {
 }
 .two {
   background-image: var(--gradient-2);
+  z-index:10000;
 }
 .three {
   background-image: var(--gradient-5);
+  z-index:10000;
 }
 .four {
   background-image: var(--gradient-4);
+  z-index:10000;
 }
 
 .sect{
@@ -106,7 +106,9 @@ b {
   box-shadow: var(--shadow-4);  /* inner-shadow? */
   font-family:var(--font-sans);
 }
-.con{
-  padding:1vmin 1.5vmax;
+.holder{
+  padding:1em 1.5em;
+}
+.title{
   font-size:4vmin;
 }
