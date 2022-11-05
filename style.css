@@ -2,9 +2,13 @@
 @import "https://unpkg.com/open-props/masks.edges.min.css";
 
 *{
-  margin: 0;}
+  margin: 0;
+}
+body::-webkit-scrollbar {
+      display: none;
+}
 .head{
-  background-image: var(--gradient-19); /*Or 30*/
+  background-image: var(--gradient-15); /*Or 30*/
   height:100vh;
 }
 .logo{
@@ -98,7 +102,7 @@ b {
 .sect{
   position:relative;
   height:50vh;
-  width:50%;
+  width:50vw;
   margin:auto;
   top:25vh;
   background-color: white;

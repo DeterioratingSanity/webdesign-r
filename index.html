@@ -30,7 +30,6 @@
 				var calendarElement = document.getElementById('calendar');
 				var calendar = new FullCalendar.Calendar(calendarElement, {
 
-						hiddenDays: [0,6],
 					  initialView: 'daySet',
 						fixedWeekCount: false,
 						headerToolbar: {
@@ -113,8 +112,7 @@ https://codepen.io/medrupaloscil/pen/QWrowxK
 		</div>
 
 		<div class="head" id="toggle">
-			<div class="logo" id="log"><span id="logTex"><p class="heroText"><span class="heroMid">T</span>itle titl<span class="heroMid">E</span></p>
-			</span></div>
+			<div class="logo" id="log"></div>
 			<div id="trigger"></div>
 		</div>
 
@@ -140,7 +138,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
 	triggerElement: "#trigger"
 })
-.setTween("#log", 0.0001, {backgroundImage: "var(--gradient-19)"})
+.setTween("#log", 0.0001, {backgroundImage: "var(--gradient-15)"})
 .addTo(controller);
 
 new ScrollMagic.Scene({

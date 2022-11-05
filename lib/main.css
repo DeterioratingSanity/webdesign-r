@@ -355,8 +355,18 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
   }
 .fc .fc-scrollgrid-liquid {
     height: 38vmin;
-    aspect-ratio: 1/3;
   }
+
+@media screen and (max-width:1200px){
+  .fc .fc-scrollgrid-liquid {
+      height: 28vmin;
+    }
+}
+@media screen and (max-width:800px){
+  .fc .fc-scrollgrid-liquid {
+      height: 20vmin;
+    }
+}
 .fc .fc-scrollgrid-section { /* a <tr> */
     height: 1px /* better than 0, for firefox */
 
