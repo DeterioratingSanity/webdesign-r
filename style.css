@@ -4,8 +4,11 @@
 *{
   margin: 0;
 }
-html{
-}
+/*
+*::selection{
+  background-color: white;
+  color:black;
+} */
 body::-webkit-scrollbar {
       display: none;
 }
