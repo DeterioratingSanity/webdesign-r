@@ -98,8 +98,8 @@ var controller = new ScrollMagic.Controller();
 var tl = new TimelineMax();
 tl.from("section.panel.two", 1, {xPercent: 150});
 tl.from("section.panel.three", 1, {yPercent: -150});
-tl.from("section.panel.four", 1, {yPercent: 150});
-tl.from("section.panel.five", 1, {xPercept: 150}); /**empty but fixes scroll discrepancy**/
+tl.from("section.panel.four", 1, {xPercent: -150});
+tl.from("section.panel.five", 1, {xPercept: 50}); /**empty but fixes scroll discrepancy**/
 
 
 new ScrollMagic.Scene({
