@@ -31,9 +31,16 @@
 			document.addEventListener('DOMContentLoaded',function(){
 				var calendarElement = document.getElementById('calendar');
 				var calendar = new FullCalendar.Calendar(calendarElement, {
-					  initialView: 'dayGrid',
 						fixedWeekCount: false,
+						// Because this library camel-cases the user facing buttons
+						buttonText: {
+							today: 'Today',
+							dayGridMonth: 'Month',
+							dayGrid: 'Day'
+						},
+						// Screen-Size Dependent Display Functionality
 						headerToolbar: $(window).width() < 750 ? {left: 'title', center:'', right:''} : {left: 'title',	center: '', right: 'today prev,next dayGridMonth,dayGrid'},
+						initialView: $(window).width() < 750 ? 'dayGrid' : 'dayGridMonth',
 						height:'45vh',
 					events: [
 						{
