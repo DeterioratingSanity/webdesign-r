@@ -30,7 +30,7 @@
 				var calendarElement = document.getElementById('calendar');
 				var calendar = new FullCalendar.Calendar(calendarElement, {
 
-					  initialView: 'dayGrid',
+					  initialView: 'dayGridMonth',
 						fixedWeekCount: false,
 						headerToolbar: {
 							left: 'title',
@@ -68,17 +68,18 @@ https://codepen.io/medrupaloscil/pen/QWrowxK
 		    <section class="panel one">
 		      <div class="sect">
 						<div class="holder">
-							<div id="calendar" style="margin:auto; z-index:1"></div>
+							<p class="title">
+								a
+							</p>
+
 						</div>
 					</div>
 		    </section>
 		    <section class="panel two">
 		      <div class="sect">
 						<div class="holder">
-							<p class="title">
-								a
-							</p>
-
+							<div id="calendar" style="margin:auto; z-index:1">
+							</div>
 						</div>
 					</div>
 		    </section>
