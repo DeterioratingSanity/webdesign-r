@@ -30,20 +30,14 @@
 				var calendarElement = document.getElementById('calendar');
 				var calendar = new FullCalendar.Calendar(calendarElement, {
 
-					  initialView: 'daySet',
+					  initialView: 'dayGrid',
 						fixedWeekCount: false,
 						headerToolbar: {
 							left: 'title',
 							center: '',
-							right: 'today prev,next dayGridMonth,daySet'
+							right: 'today prev,next dayGridMonth,dayGrid'
 						},
-						views: {
-							daySet: {
-								type: 'dayGrid',
-								duration: {days: 1 },
-								buttonText: 'Today'
-							}
-						},
+						height:'45vh',
 					events: [
 						{
 							title: 'Given Event',
