@@ -17,6 +17,8 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
 		<link
 			rel="stylesheet"
 			href="lib/main.css"
@@ -29,14 +31,9 @@
 			document.addEventListener('DOMContentLoaded',function(){
 				var calendarElement = document.getElementById('calendar');
 				var calendar = new FullCalendar.Calendar(calendarElement, {
-
-					  initialView: 'dayGridMonth',
+					  initialView: 'dayGrid',
 						fixedWeekCount: false,
-						headerToolbar: {
-							left: 'title',
-							center: '',
-							right: 'today prev,next dayGridMonth,dayGrid'
-						},
+						headerToolbar: $(window).width() < 750 ? {left: 'title', center:'', right:''} : {left: 'title',	center: '', right: 'today prev,next dayGridMonth,dayGrid'},
 						height:'45vh',
 					events: [
 						{
