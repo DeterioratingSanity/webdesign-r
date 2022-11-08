@@ -116,45 +116,45 @@ b {
 .title{
   font-size:4vmin;
 }
-.nav:nth-child(1){
+.navOne{
   background-image: var(--gradient-24);
 }
-.nav:nth-child(1):hover{
+.navOne:hover{
    background: var(--gradient-24);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
-.nav:nth-child(2){
+.navTwo{
     background-image: var(--gradient-14);
 }
-.nav:nth-child(2):hover{
+.navTwo:hover{
    background: var(--gradient-14);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
-.nav:nth-child(3){
+.navThree{
     background-image: var(--gradient-7);
 }
 
-.nav:nth-child(3):hover{
+.navThree:hover{
    background: var(--gradient-7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
-.nav:nth-child(4){
+.navFour{
     background-image: var(--gradient-29);
 }
 
-.nav:nth-child(4):hover{
+.navFour:hover{
    background: var(--gradient-29);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
-.nav:nth-child(5){
+.navFive{
     background-image: var(--gradient-19);
 }
 
-.nav:nth-child(5):hover{
+.navFive:hover{
    background: var(--gradient-19);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
