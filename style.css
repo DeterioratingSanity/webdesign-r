@@ -198,7 +198,8 @@ b {
 }
 
 .marquee span {
-    font-size: 10vw;
+   font-weight: var(--font-weight-4);
+   font-family: var(--font-serif);
     padding: 0 2vw;
 }
 
