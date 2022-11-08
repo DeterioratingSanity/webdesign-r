@@ -124,6 +124,11 @@ b {
   border-radius: var(--radius-4);
   margin:3vw;
 }
+.navOne:hover{
+   background: var(--gradient-24);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
 .navTwo{
     background-image: var(--gradient-14);
     border-radius: var(--radius-4);
