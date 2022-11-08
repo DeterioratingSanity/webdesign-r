@@ -121,7 +121,7 @@ b {
 }
 .navOne{
   background-image: var(--gradient-24);
-  height: 100%:
+  height: 100%;
 }
 .nav:hover .navOne{
    background: var(--gradient-24);
@@ -130,7 +130,7 @@ b {
 }
 .navTwo{
     background-image: var(--gradient-14);
-  height: 100%:
+  height: 100%;
 }
 .nav:hover .navTwo{
    background: var(--gradient-14);
@@ -139,7 +139,7 @@ b {
 }
 .navThree{
     background-image: var(--gradient-7);
-  height: 100%:
+  height: 100%;
 }
 
 .nav:hover .navThree{
@@ -149,7 +149,7 @@ b {
 }
 .navFour{
     background-image: var(--gradient-29);
-  height: 100%:
+  height: 100%;
 }
 
 .nav:hover .navFour{
@@ -159,7 +159,7 @@ b {
 }
 .navFive{
     background-image: var(--gradient-19);
-  height: 100%:
+  height: 100%;
 }
 
 .nav:hover .navFive{
