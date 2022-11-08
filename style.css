@@ -167,7 +167,6 @@ b {
   border: 1vw solid black;
   border-radius: var(--radius-4);
   margin:10px;
-  padding: 0;
 }
 .marquee {
     position: relative;
@@ -190,7 +189,7 @@ b {
    font-weight: 6vw;
    font-family: var(--font-serif);
    font-size: 12vmin;
-   padding: 0 2vw;
+   padding: -10px 2vw;
 }
 
 .marquee:hover .marquee__inner {
