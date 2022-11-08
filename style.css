@@ -166,7 +166,7 @@ b {
   background-color:white;
   border: 1vw solid black;
   border-radius: var(--radius-4);
-  margin:3em;
+  margin:10px;
 }
 .marquee {
     position: relative;
