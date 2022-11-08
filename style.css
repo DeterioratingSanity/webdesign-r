@@ -186,7 +186,9 @@ b {
           -moz-animation: navloop 40s linear infinite;
           -o-animation: navloop 40s linear infinite;
 }
-
+.den{
+  z-index:-1;
+}
 .marquee .den {
    font-weight: 6vw;
    font-family: var(--font-serif);
