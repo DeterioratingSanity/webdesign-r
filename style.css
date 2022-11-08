@@ -116,7 +116,7 @@ b {
 .title{
   font-size:4vmin;
 }
-.navOne{
+.nav:nth-child(1){
   background-image: var(--gradient-24);
   height: 100%;
 }
@@ -125,7 +125,7 @@ b {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
-.navTwo{
+.nav:nth-child(2){
     background-image: var(--gradient-14);
   height: 100%;
 }
@@ -134,7 +134,7 @@ b {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
-.navThree{
+.nav:nth-child(3){
     background-image: var(--gradient-7);
   height: 100%;
 }
@@ -144,7 +144,7 @@ b {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
-.navFour{
+.nav:nth-child(4){
     background-image: var(--gradient-29);
   height: 100%;
 }
@@ -154,7 +154,7 @@ b {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
-.navFive{
+.nav:nth-child(5){
     background-image: var(--gradient-19);
   height: 100%;
 }
@@ -185,10 +185,6 @@ b {
   -webkit-animation: navloop 40s linear infinite;
           -moz-animation: navloop 40s linear infinite;
           -o-animation: navloop 40s linear infinite;
-}
-.den{
-  z-index:-1;
-  position:relative;
 }
 .marquee .den {
    font-weight: 6vw;
