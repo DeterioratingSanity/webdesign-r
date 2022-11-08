@@ -188,6 +188,7 @@ b {
 }
 .den{
   z-index:-1;
+  position:relative;
 }
 .marquee .den {
    font-weight: 6vw;
