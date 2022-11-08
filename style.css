@@ -166,6 +166,7 @@ b {
   background-color:white;
   border: 1vw solid black;
   border-radius: var(--radius-4);
+  margin:3em;
 }
 .marquee {
     position: relative;
@@ -187,7 +188,6 @@ b {
 .marquee span {
    font-weight: 6vw;
    font-family: var(--font-serif);
-    padding: 0 2vw;
    font-size: 12vmin;
 }
 
