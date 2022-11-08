@@ -201,6 +201,7 @@ b {
    font-weight: 6vw;
    font-family: var(--font-serif);
     padding: 0 2vw;
+   font-size: 12vmin;
 }
 
 .marquee:hover .marquee__inner {
