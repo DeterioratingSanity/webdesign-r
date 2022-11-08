@@ -122,7 +122,7 @@ b {
 .navOne{
   background-image: var(--gradient-24);
 }
-.navOne:hover{
+.nav:hover .navOne{
    background: var(--gradient-24);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
@@ -130,7 +130,7 @@ b {
 .navTwo{
     background-image: var(--gradient-14);
 }
-.navTwo:hover{
+.nav:hover .navTwo{
    background: var(--gradient-14);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
@@ -139,7 +139,7 @@ b {
     background-image: var(--gradient-7);
 }
 
-.navThree:hover{
+.nav:hover .navThree{
    background: var(--gradient-7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
@@ -148,7 +148,7 @@ b {
     background-image: var(--gradient-29);
 }
 
-.navFour:hover{
+.nav:hover .navFour{
    background: var(--gradient-29);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
@@ -157,7 +157,7 @@ b {
     background-image: var(--gradient-19);
 }
 
-.navFive:hover{
+.nav:hover .navFive{
    background: var(--gradient-19);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
