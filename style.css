@@ -118,48 +118,43 @@ b {
 }
 .nav:nth-child(1){
   background-image: var(--gradient-24);
-  height: 100%;
 }
-.nav:hover .navOne{
+.nav:nth-child(1):hover{
    background: var(--gradient-24);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
 .nav:nth-child(2){
     background-image: var(--gradient-14);
-  height: 100%;
 }
-.nav:hover .navTwo{
+.nav:nth-child(2):hover{
    background: var(--gradient-14);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
 .nav:nth-child(3){
     background-image: var(--gradient-7);
-  height: 100%;
 }
 
-.nav:hover .navThree{
+.nav:nth-child(3):hover{
    background: var(--gradient-7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
 .nav:nth-child(4){
     background-image: var(--gradient-29);
-  height: 100%;
 }
 
-.nav:hover .navFour{
+.nav:nth-child(4):hover{
    background: var(--gradient-29);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
 .nav:nth-child(5){
     background-image: var(--gradient-19);
-  height: 100%;
 }
 
-.nav:hover .navFive{
+.nav:nth-child(5):hover{
    background: var(--gradient-19);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
