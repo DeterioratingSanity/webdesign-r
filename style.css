@@ -118,7 +118,7 @@ b {
 }
 .navOne{
   background-image: var(--gradient-24);
-  border: .3vw solid black;
+  border: .6vw solid black;
   border-radius: var(--radius-4);
 }
 .navOne:hover{
@@ -128,7 +128,7 @@ b {
 }
 .navTwo{
     background-image: var(--gradient-14);
-  border: .3vw solid black;
+  border: .6vw solid black;
   border-radius: var(--radius-4);
 }
 .navTwo:hover{
@@ -138,7 +138,7 @@ b {
 }
 .navThree{
     background-image: var(--gradient-7);
-  border: .3vw solid black;
+  border: .6vw solid black;
   border-radius: var(--radius-4);
 }
 
@@ -149,7 +149,7 @@ b {
 }
 .navFour{
     background-image: var(--gradient-29);
-  border: .3vw solid black;
+  border: .6vw solid black;
   border-radius: var(--radius-4);
 }
 
@@ -160,7 +160,7 @@ b {
 }
 .navFive{
     background-image: var(--gradient-19);
-  border: .3vw solid black;
+  border: .6vw solid black;
   border-radius: var(--radius-4);
 }
 
