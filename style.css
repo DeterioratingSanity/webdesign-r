@@ -204,7 +204,7 @@ b {
    font-size: 12vmin;
 }
 
-.marquee:hover .marquee__inner {
+.marquee span:hover .marquee__inner {
     animation-play-state: paused;
 }
 @-webkit-keyframes navloop {
