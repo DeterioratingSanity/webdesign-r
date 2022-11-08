@@ -189,6 +189,7 @@ b {
    font-weight: 6vw;
    font-family: var(--font-serif);
    font-size: 12vmin;
+  padding: 0 2vw;
 }
 
 .marquee:hover .marquee__inner {
