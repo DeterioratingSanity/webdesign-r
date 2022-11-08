@@ -177,6 +177,9 @@ b {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
+.nav{
+  background-color:white;
+}
 .marquee {
     position: relative;
     overflow: hidden;
@@ -185,6 +188,7 @@ b {
     color:white;
     font-weight:bold;
 }
+
 
 .marquee__inner {
   display: flex;
