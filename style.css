@@ -164,6 +164,8 @@ b {
   border: 1vw solid black;
   border-radius: var(--radius-4);
   margin:0 10px;
+  display:flex;
+  flex-grow: 1;
 }
 .marquee {
     position: relative;
@@ -180,7 +182,6 @@ b {
   -webkit-animation: navloop 40s linear infinite;
           -moz-animation: navloop 40s linear infinite;
           -o-animation: navloop 40s linear infinite;
-  flex-grow: 1;
 }
 .marquee .den {
    font-weight: 6vw;
