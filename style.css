@@ -123,7 +123,7 @@ b {
   background-image: var(--gradient-24);
   border-radius: var(--radius-4);
   margin:3vw;
-  border-image: url(var(--gradient-24)) 30 round;
+  border: 4px solid black;
 }
 .navOne:hover{
    background: var(--gradient-24);
@@ -134,7 +134,7 @@ b {
     background-image: var(--gradient-14);
     border-radius: var(--radius-4);
     margin:3vw;
-  border-image: url(var(--gradient-14)) 30 round;
+  border: 4px solid black;
 }
 .navTwo:hover{
    background: var(--gradient-14);
@@ -145,7 +145,7 @@ b {
     background-image: var(--gradient-7);
     border-radius: var(--radius-4);
     margin:3vw;
-    border-image: url(var(--gradient-7)) 30 round;
+  border: 4px solid black;
 }
 
 .navThree:hover{
@@ -157,7 +157,7 @@ b {
     background-image: var(--gradient-29);
     border-radius: var(--radius-4);
     margin:3vw;
-  border-image: url(var(--gradient-29)) 30 round;
+  border: 4px solid black;
 }
 
 .navFour:hover{
@@ -169,7 +169,7 @@ b {
     background-image: var(--gradient-19);
     border-radius: var(--radius-4);
     margin:3vw;
-  border-image: url(var(--gradient-19)) 30 round;
+  border: 4px solid black;
 }
 
 .navFive:hover{
