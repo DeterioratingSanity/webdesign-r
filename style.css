@@ -185,11 +185,11 @@ b {
           -o-animation: navloop 40s linear infinite;
 }
 
-.marquee span {
+.marquee .den {
    font-weight: 6vw;
    font-family: var(--font-serif);
    font-size: 12vmin;
-   padding: 2vw 0;
+   padding: 0 2vw;
 }
 
 .marquee:hover .marquee__inner {
