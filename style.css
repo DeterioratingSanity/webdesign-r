@@ -164,7 +164,6 @@ b {
 }
 .nav{
   background-color:white;
-  margin:3vw;
   border: 1vw solid black;
   border-radius: var(--radius-4);
 }
