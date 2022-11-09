@@ -172,7 +172,7 @@ b {
   border-radius: var(--radius-5);
 }
 .navWrap{
-  /*padding: .6vw;*/
+  padding: 10px;
   border-radius: var(--radius-5);
   margin:0 10px;
 }
