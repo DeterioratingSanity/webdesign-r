@@ -174,7 +174,7 @@ b {
   z-index:1;
 }
 .navWrap{
-  padding: .6vw;
+  /*padding: .6vw;*/
   border-radius: var(--radius-5);
   margin:0 10px;
   position:relative;
