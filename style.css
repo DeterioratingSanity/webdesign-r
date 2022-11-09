@@ -11,7 +11,7 @@ body::-webkit-scrollbar {
   background-image: var(--gradient-15); /*Or 30*/
   height:100vh;
 }
-.logo{
+.logo{5
   position:relative;
   background-color:white;
   text-align:center;
@@ -118,7 +118,7 @@ b {
 }
 .navOne{
   background-image: var(--gradient-1);
-  border-radius: var(--radius-round);
+  border-radius: var(--radius-5);
 }
 .navWrap:hover .navOne{
    background-image: var(--gradient-1);
@@ -127,7 +127,7 @@ b {
 }
 .navTwo{
     background-image: var(--gradient-27);
-  border-radius: var(--radius-round);
+  border-radius: var(--radius-5);
 }
 .navWrap:hover .navTwo{
    background-image: var(--gradient-27);
@@ -136,7 +136,7 @@ b {
 }
 .navThree{
     background-image: var(--gradient-25);
-  border-radius: var(--radius-round);
+  border-radius: var(--radius-5);
 }
 
 .navWrap:hover .navThree{
@@ -146,7 +146,7 @@ b {
 }
 .navFour{
     background-image: var(--gradient-3);
-  border-radius: var(--radius-round);
+  border-radius: var(--radius-5);
 }
 
 .navWrap:hover .navFour{
@@ -156,7 +156,7 @@ b {
 }
 .navFive{
     background-image: var(--gradient-19);
-  border-radius: var(--radius-round);
+  border-radius: var(--radius-5);
 }
 
 .navWrap:hover .navFive{
