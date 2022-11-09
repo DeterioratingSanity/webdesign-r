@@ -150,7 +150,7 @@ b {
 .navFour{
     background-image: var(--gradient-3);
   border-radius: var(--radius-round);
-  padding: 4px;
+  margin: -5px;
 }
 
 .navWrap:hover .navFour{
@@ -161,7 +161,7 @@ b {
 .navFive{
     background-image: var(--gradient-19);
   border-radius: var(--radius-round);
-  padding: 4px;
+  padding: 14px;
 }
 
 .navWrap:hover .navFive{
