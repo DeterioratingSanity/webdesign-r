@@ -170,6 +170,7 @@ b {
   display:flex;
   flex-grow: 1;
   border-radius: var(--radius-round);
+  padding:5px; /*if you can't fix it, make it look purposeful!*/
 }
 .navWrap{
   padding: 10px;
@@ -208,9 +209,8 @@ b {
           -o-animation: navloop 40s linear infinite;
 }
 .marquee .den {
-   font-weight: 6vw;
    font-family: var(--font-serif);
-   font-size: 12vmin;
+   font-size: 7vmin;
    padding: 1vw 2vw;
 }
 .den{
