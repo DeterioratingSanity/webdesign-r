@@ -175,6 +175,8 @@ b {
   padding: .6vw;
   border-radius: var(--radius-5);
   margin:0 10px;
+  position:relative;
+  z-index:2;
 }
 .navWrap:nth-child(1){
   background-image: var(--gradient-1);
@@ -216,6 +218,8 @@ b {
 .den{
   min-width:4em;
   text-align:center;
+  position:relative;
+  z-index:3;
 }
 .marquee:hover .marquee__inner {
     animation-play-state: paused;
