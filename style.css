@@ -170,6 +170,8 @@ b {
   display:flex;
   flex-grow: 1;
   border-radius: var(--radius-5);
+  position:relative;
+  z-index:1;
 }
 .navWrap{
   padding: .6vw;
