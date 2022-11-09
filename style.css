@@ -11,7 +11,7 @@ body::-webkit-scrollbar {
   background-image: var(--gradient-15); /*Or 30*/
   height:100vh;
 }
-.logo{5
+.logo{
   position:relative;
   background-color:white;
   text-align:center;
