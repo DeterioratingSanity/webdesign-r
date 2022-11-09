@@ -174,7 +174,7 @@ b {
 .navWrap{
   padding: 10px;
   border-radius: var(--radius-round);
-  /*margin:0 10px;*/
+  margin:0 10px;
 }
 .navWrap:nth-child(1){
   background-image: var(--gradient-1);
