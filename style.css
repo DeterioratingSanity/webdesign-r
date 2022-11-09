@@ -121,7 +121,7 @@ b {
   border-radius: var(--radius-round);
 }
 .navWrap:hover .navOne{
-   background: var(--gradient-1);
+   background-image: var(--gradient-1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -130,7 +130,7 @@ b {
   border-radius: var(--radius-round);
 }
 .navWrap:hover .navTwo{
-   background: var(--gradient-27);
+   background-image: var(--gradient-27);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -140,7 +140,7 @@ b {
 }
 
 .navWrap:hover .navThree{
-   background: var(--gradient-25);
+   background-image: var(--gradient-25);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -150,7 +150,7 @@ b {
 }
 
 .navWrap:hover .navFour{
-   background: var(--gradient-3);
+   background-image: var(--gradient-3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -160,7 +160,7 @@ b {
 }
 
 .navWrap:hover .navFive{
-   background: var(--gradient-19);
+   background-image: var(--gradient-19);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
