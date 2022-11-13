@@ -21,6 +21,7 @@ body::-webkit-scrollbar {
   aspect-ratio:1/1;
   margin:auto;
   top:25vh;
+  line-height:8vmin;
   /*
   */
 }
@@ -194,8 +195,6 @@ b {
     background-image: var(--gradient-19);
 }
 .marquee {
-    position: absolute;
-    top:45vh;
     overflow: hidden;
     width:100%;
     display:flex;
@@ -264,3 +263,28 @@ b {
            transform: translateX(-100%);
          }
        }
+
+#underhead{
+  font-size: 8vmin;
+  display: inline-block;
+}
+#underhead::before{
+  content: '';
+  display: inline-block;
+  width: 2vmin;
+  height: 2vmin;
+  background-image: var(--gradient-23);
+  border-radius:var(--radius-round);
+  vertical-align:middle;
+  margin-right:1vmin;
+}
+#underhead::after{
+  content: '';
+  display: inline-block;
+  width: 2vmin;
+  height: 2vmin;
+  background-image: var(--gradient-23);
+  border-radius:var(--radius-round);
+  vertical-align:middle;
+  margin-left:1vmin;
+}
