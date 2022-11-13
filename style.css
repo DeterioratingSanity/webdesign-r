@@ -116,7 +116,6 @@ b {
 }
 .holder{
   padding:1em 1.5em;
-  font-size:2em;
 }
 .title{
   font-size:4vmin;
@@ -178,7 +177,7 @@ b {
   /*padding:5px; /*if you can't fix it, make it look purposeful!*/
 }
 .navWrap{
-  padding: 20px;
+  padding: 10px;
   border-radius: var(--radius-round);
   margin:0 10px;
   cursor: pointer;
