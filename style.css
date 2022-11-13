@@ -4,6 +4,9 @@
 *{
   margin: 0;
 }
+body{
+  cursor: url(cursor.svg), auto;
+}
 body::-webkit-scrollbar {
       display: none;
 }
@@ -177,7 +180,6 @@ b {
   padding: 10px;
   border-radius: var(--radius-round);
   margin:0 10px;
-  cursor:pointer;
 }
 .navWrap:nth-child(1){
   background-image: var(--gradient-1);
@@ -299,4 +301,7 @@ b {
 }
 #logH::after{
   content: url('./paw.svg');
+}
+#cursorR{
+  cursor:default;
 }
