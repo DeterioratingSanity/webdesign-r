@@ -297,3 +297,6 @@ b {
     font-size: 6vmin;
   }
 }
+#logH::after{
+  content: url('./paw.svg');
+}
