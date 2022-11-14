@@ -169,6 +169,16 @@ b {
   -webkit-text-fill-color: transparent;
 }
 
+.navH{
+  background-image: var(--gradient-14);
+border-radius: var(--radius-5);
+}
+.navWrap:hover .navH{
+
+     background-image: var(--gradient-14);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .nav{
   background-color:white;
   display:flex;
@@ -179,7 +189,7 @@ b {
 .navWrap{
   padding: 10px;
   border-radius: var(--radius-round);
-  margin:0 3.5vmax;
+  margin:0 1vmax;
   cursor: pointer;
 }
 .navWrap:nth-child(1){
@@ -193,6 +203,9 @@ b {
 }
 .navWrap:nth-child(4){
     background-image: var(--gradient-19);
+}
+.navWrap:nth-child(5){
+    background-image: var(--gradient-14);
 }
 .marquee {
     overflow: hidden;

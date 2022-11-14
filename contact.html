@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Doggone Good</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="#"
+		>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="./fav.svg">
+  </head>
+
+  <body>
+    <div class="head" id="toggle">
+			<div class="logo" id="log">
+			</div>
+			<div id="trigger"></div>
+
+
+				<div class="marquee">
+					<div class="marquee__inner">
+						<span class="navWrap">
+							<span class="nav">
+								<span class='navOne den'>
+									Plans
+								</span>
+							</span>
+						</span>
+						<span class="navWrap">
+							<span class="nav">
+								<span class="navTwo den">
+									Reviews
+								</span>
+							</span>
+						</span>
+						<span class="navWrap">
+							<span class="nav">
+								<span class="navThree den">
+									Contact
+								</span>
+							</span>
+						</span>
+						<span class="navWrap">
+							<span class="nav">
+								<span class="navFive den">
+									About
+								</span>
+							</span>
+						</span>
+						<span class="navWrap">
+							<span class="nav">
+								<span class="navH den">
+									Home
+								</span>
+							</span>
+						</span>
+					</div>
+
+					<div class="marquee__inner">
+						<span class="navWrap">
+							<span class="nav">
+								<span class='navOne den'>
+									Plans
+								</span>
+							</span>
+						</span>
+						<span class="navWrap">
+							<span class="nav">
+								<span class="navTwo den">
+									Reviews
+								</span>
+							</span>
+						</span>
+						<span class="navWrap">
+							<span class="nav">
+								<span class="navThree den">
+									Contact
+								</span>
+							</span>
+						</span>
+						<span class="navWrap">
+							<span class="nav">
+								<span class="navFive den">
+									About
+								</span>
+							</span>
+						</span>
+					</div>
+          <span class="navWrap">
+            <span class="nav">
+              <span class="navH den">
+                Home
+              </span>
+            </span>
+          </span>
+			</div>
+
+		</div>
+
+    <script src="script.js">
+    </script>
+    <script>
+    TweenLite.defaultEase = Linear.easeNone;
+    var controller = new ScrollMagic.Controller();
+    var tl = new TimelineMax();
+      new ScrollMagic.Scene({
+      	triggerElement: "#trigger"
+      })
+      .setTween("#log", 0.0001, {backgroundImage: "var(--gradient-15)"})
+      .addTo(controller);
+
+      new ScrollMagic.Scene({
+      	triggerElement: "#trigger"
+      })
+      .setTween("#toggle", 0.0001, {backgroundImage: "none", position:"relative"})
+      .addTo(controller);
+
+      </script>
+      	</body>
+      </html>
