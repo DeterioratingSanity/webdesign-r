@@ -333,10 +333,12 @@ background-color: white;
   justify-content: center;
   text-align:center;
   margin-bottom:5vh;
+  padding:5px;
 }
 .userIcon{
   height:40px;
   border-radius: var(--radius-round);
+  margin:5px;
 }
 #iconHomeFirst{
   content: url('./usericon/iconBlue.svg');
@@ -350,3 +352,60 @@ background-color: white;
   content: url('./usericon/iconPurple.svg');
   border: 5px solid rgb(139, 53, 255);
 }
+  #subImg{
+    height:25vh;
+    position:absolute;
+    top:22vh;
+    left:27vw;
+  }
+  @media screen and (max-width: 680px){
+    #subImg{
+      height: 0;
+    }
+  }@media screen and (max-height: 600px){
+    #subImg{
+      height: 0;
+    }
+  }
+  #displayFirst{
+    background-image: url(./walk.jpeg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+  }
+  #displaySecond{
+    background-image: url(./walk2.jpeg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+  }
+  #displayThird{
+    background-image: url(./walk3.jpeg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+  }
+  .gallery {
+    top:25vh;
+  }
+
+  .gallery-cell {
+    position:relative;
+    height:50vh;
+    width:50vw;
+    margin:auto;
+    background-color: white;
+    border-radius: var(--radius-4);
+    box-shadow: var(--shadow-2);  /* inner-shadow? */
+    font-family:var(--font-sans);
+    margin:10px;
+  }
+
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }

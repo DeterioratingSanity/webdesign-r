@@ -16,7 +16,9 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
 		<link
@@ -222,7 +224,7 @@ https://stackoverflow.com/questions/5706963/possible-to-use-border-radius-togeth
 								<span>Clean facilities, caring workers - Perfect for any dog.</span>
 								<div class="userIcon" id="iconHomeThird"></div>
 							</span>
-
+							<img id="subImg" src='dogSilhouette.svg' style="">
 						</div>
 					</div>
 		    </section>
@@ -235,13 +237,11 @@ https://stackoverflow.com/questions/5706963/possible-to-use-border-radius-togeth
 					</div>
 		    </section>
 		    <section class="panel three">
-		      <div class="sect">
-						<div class="holder">
-							<p class="title">
-								a
-							</p>
-
-						</div>
+					<div class="gallery js-flickity"
+	  					data-flickity-options='{ "wrapAround": true }'>
+					  <div class="gallery-cell" id="displayFirst"></div>
+					  <div class="gallery-cell" id="displaySecond"></div>
+					  <div class="gallery-cell" id="displayThird"></div>
 					</div>
 		    </section>
 		    <section class="panel four">
