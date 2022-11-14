@@ -88,18 +88,18 @@ b {
   position: relative;
 }
 .one {
-  background-image: var(--gradient-1);
+  background-image: var(--gradient-2);
 }
 .two {
-  background-image: var(--gradient-2);
-  z-index:10000;
-}
-.three {
   background-image: var(--gradient-5);
   z-index:10000;
 }
-.four {
+.three {
   background-image: var(--gradient-4);
+  z-index:10000;
+}
+.four {
+  background-image: var(--gradient-1);
   z-index:10000;
 }
 
@@ -121,30 +121,30 @@ b {
   font-size:4vmin;
 }
 .navOne{
-  background-image: var(--gradient-27);
+  background-image: var(--gradient-1);
   border-radius: var(--radius-5);
 }
 .navWrap:hover .navOne{
-   background-image: var(--gradient-27);
+   background-image: var(--gradient-1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .navTwo{
-    background-image: var(--gradient-25);
+    background-image: var(--gradient-27);
   border-radius: var(--radius-5);
 }
 .navWrap:hover .navTwo{
-   background-image: var(--gradient-25);
+   background-image: var(--gradient-27);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .navThree{
-    background-image: var(--gradient-19);
+    background-image: var(--gradient-25);
   border-radius: var(--radius-5);
 }
 
 .navWrap:hover .navThree{
-   background-image: var(--gradient-19);
+   background-image: var(--gradient-25);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -159,12 +159,12 @@ b {
   -webkit-text-fill-color: transparent;
 }
 .navFive{
-    background-image: var(--gradient-1);
+    background-image: var(--gradient-19);
   border-radius: var(--radius-5);
 }
 
 .navWrap:hover .navFive{
-   background-image: var(--gradient-1);
+   background-image: var(--gradient-19);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -193,16 +193,16 @@ border-radius: var(--radius-5);
   cursor: pointer;
 }
 .navWrap:nth-child(1){
-  background-image: var(--gradient-27);
+  background-image: var(--gradient-1);
 }
 .navWrap:nth-child(2){
-    background-image: var(--gradient-25);
+    background-image: var(--gradient-27);
 }
 .navWrap:nth-child(3){
-    background-image: var(--gradient-19);
+    background-image: var(--gradient-25);
 }
 .navWrap:nth-child(4){
-    background-image: var(--gradient-1);
+    background-image: var(--gradient-19);
 }
 .navWrap:nth-child(5){
     background-image: var(--gradient-14);
