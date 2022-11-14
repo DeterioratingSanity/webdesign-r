@@ -179,7 +179,7 @@ b {
 .navWrap{
   padding: 10px;
   border-radius: var(--radius-round);
-  margin:0 10px;
+  margin:0 3.5vmax;
   cursor: pointer;
 }
 .navWrap:nth-child(1){
@@ -192,9 +192,6 @@ b {
     background-image: var(--gradient-25);
 }
 .navWrap:nth-child(4){
-    background-image: var(--gradient-3);
-}
-.navWrap:nth-child(5){
     background-image: var(--gradient-19);
 }
 .marquee {
