@@ -6,11 +6,10 @@
 }
 body{
   cursor: url(cursor.svg), auto;
-  scrollbar-width: thin;
-}/*
+}
 body::-webkit-scrollbar {
       display: none;
-} */
+}
 .head{
   background-image: var(--gradient-15); /*Or 30*/
   height:100vh;
