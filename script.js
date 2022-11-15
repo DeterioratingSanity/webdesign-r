@@ -21,3 +21,16 @@ $('.navH').click(function(){
   window.open('./index.html', '_self');
   return false;
 })
+
+$('#icon1').click(function(){
+  window.open('https://www.facebook.com/');
+  return false;
+})
+$('#icon2').click(function(){
+  window.open('https://www.instagram.com/');
+  return false;
+})
+$('#icon3').click(function(){
+  window.open('https://www.youtube.com/');
+  return false;
+})
