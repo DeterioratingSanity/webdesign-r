@@ -468,22 +468,42 @@ margin:auto;
 .packageSubtitle{
 font-size: var(--font-size-3);
 }
-@media screen and (min-width: 1400px){
+.packageContent{
+  padding:35px 10px 10px 10px;
+  text-align:center;
+  font-size: var(--font-size-3);
+}
+.contactRec{
+  position:relative;
+  text-align:center;
+  font-size: var(--font-size-3);
+}
+#contactRec1{
+  top:70%;
+}
+#contactRec2{
+  top:80%;
+}
+#contactRec3{
+  top:75%;
+}
+
+@media screen and (min-width: 1400px) and (min-height: 740px){
 
   #packageOne{
     position:absolute;
-                left:15vw;top:13vh;
+                left:15vw;top:8vh;
                 width:20vw;
   }
   #packageTwo{
     position:absolute;
-                left:40vw;top:13vh;
+                left:40vw;top:8vh;
                 width:20vw;
   }
   #packageThree{
     position:absolute;
                 left:65vw;
-                top:13vh;
+                top:8vh;
                 width:20vw;
   }
 }
