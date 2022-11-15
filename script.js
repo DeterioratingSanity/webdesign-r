@@ -34,3 +34,8 @@ $('#icon3').click(function(){
   window.open('https://www.youtube.com/');
   return false;
 })
+
+$('#ret').click(function(){
+  window.open('./index.html', '_self');
+  return false;
+})
