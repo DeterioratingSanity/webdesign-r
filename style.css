@@ -677,3 +677,15 @@ margin:10px;
   border-radius: var(--radius-4);
   font-family:var(--font-sans);
 }
+.revDis{
+  width:80vw;
+  position:relative;
+  left:9vw;
+  padding:20px;
+  margin-bottom:40px;
+  background-color:white;
+  border-radius: var(--radius-4);
+  box-shadow: var(--shadow-4);  /* inner-shadow? */
+  font-family:var(--font-sans);
+  font-size: var(--font-size-5);
+}
