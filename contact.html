@@ -25,87 +25,85 @@
   </head>
 
   <body>
-	<div style="height:105vh;">
-	    
-	    
+	<div style="height:105vh;background-image:var(--gradient-3)">
+    <div id="organizer">
+      <div class="buttonHolder">
+          <div class="buttonFill">
+            <svg class="icons" id="icon1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><linearGradient id="linDef"><stop offset="0%" stop-color="rgb(75,75,75)"></linearGradient><linearGradient id="gradientA"><stop offset="0%" stop-color="rgb(114, 180, 17)"/><stop offset="100%" stop-color="rgb(19, 180, 151 )"/></linearGradient><linearGradient id="gradientB"><stop offset="0%" stop-color="rgb(91, 86, 221)"/><stop offset="100%" stop-color="rgb(230, 152, 42 )"/></linearGradient><linearGradient id="gradientC"><stop offset="0%" stop-color="rgb(200, 12, 12)"/><stop offset="100%" stop-color="rgb(244, 119, 119)"/></linearGradient><linearGradient id="gradientD"><stop offset="0%" stop-color="rgb(194, 42, 223)"/><stop offset="100%" stop-color="rgb(90, 213, 151)"/></linearGradient></defs><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg>
+            <svg id="icon2" class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/>
+            </svg>
+            <svg id="icon3" class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"/></svg>
+            <svg id="icon4" class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg>
+          </div>
+        </div>
+      </div>
 
-    </div>  
-	  
+    </div>
+    <div id="modalBox" class="modal">
+              <div class="modalContent">
+                <span class="close">&times;</span>
+                  <form action="https://formsubmit.co/wyatt.d.wilson@gmail.com" method="POST">
+                              <input class="input" type="text" name="name" placeholder="Name" required class="messageForm"><br>
+                              <input class="input"  type="email" name="email" placeholder="Email Address" required class="messageForm"><br>
+                              <textarea class="input"  name="message" id="messageField" placeholder="Message" rows="6" cols="50" class="messageForm"></textarea><br>
+                              <input class="input"  type="hidden" name="_next" value="./thanks.html">
+                              <button class="input"  class="messageForm" type="submit">Send</button>
+                          </form>
+              </div>
+            </div>
+
+            <script>
+//it works now.
+              var modal = document.getElementById("modalBox");
+              $('#icon4').click(function(){
+                $('#modalBox').css("display","block");
+              })
+              $('.close').click(function(){
+                  $('#modalBox').css("display","none");
+              })
+              window.onclick = function(event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          }
+            </script>
+
     <div class="head" id="toggle">
 			<div class="logo" id="log">
 			</div>
 			<div id="trigger"></div>
 
 
-				<div class="marquee">
-					<div class="marquee__inner">
-						<span class="navWrap">
-							<span class="nav">
-								<span class='navOne den'>
-									Plans
-								</span>
-							</span>
-						</span>
-						<span class="navWrap">
-							<span class="nav">
-								<span class="navTwo den">
-									Reviews
-								</span>
-							</span>
-						</span>
-						<span class="navWrap">
-							<span class="nav">
-								<span class="navThree den">
-									Contact
-								</span>
-							</span>
-						</span>
-						<span class="navWrap">
-							<span class="nav">
-								<span class="navFive den">
-									About
-								</span>
-							</span>
-						</span>
-						<span class="navWrap">
-							<span class="nav">
-								<span class="navH den">
-									Home
-								</span>
-							</span>
-						</span>
-					</div>
-
-					<div class="marquee__inner">
-						<span class="navWrap">
-							<span class="nav">
-								<span class='navOne den'>
-									Plans
-								</span>
-							</span>
-						</span>
-						<span class="navWrap">
-							<span class="nav">
-								<span class="navTwo den">
-									Reviews
-								</span>
-							</span>
-						</span>
-						<span class="navWrap">
-							<span class="nav">
-								<span class="navThree den">
-									Contact
-								</span>
-							</span>
-						</span>
-						<span class="navWrap">
-							<span class="nav">
-								<span class="navFive den">
-									About
-								</span>
-							</span>
-						</span>
-					</div>
+      <div class="marquee">
+        <div class="marquee__inner">
+          <span class="navWrap">
+            <span class="nav">
+              <span class='navOne den'>
+                Plans
+              </span>
+            </span>
+          </span>
+          <span class="navWrap">
+            <span class="nav">
+              <span class="navTwo den">
+                Reviews
+              </span>
+            </span>
+          </span>
+          <span class="navWrap">
+            <span class="nav">
+              <span class="navThree den">
+                Contact
+              </span>
+            </span>
+          </span>
+          <span class="navWrap">
+            <span class="nav">
+              <span class="navFive den">
+                About
+              </span>
+            </span>
+          </span>
           <span class="navWrap">
             <span class="nav">
               <span class="navH den">
@@ -113,7 +111,46 @@
               </span>
             </span>
           </span>
-			</div>
+        </div>
+
+        <div class="marquee__inner">
+          <span class="navWrap">
+            <span class="nav">
+              <span class='navOne den'>
+                Plans
+              </span>
+            </span>
+          </span>
+          <span class="navWrap">
+            <span class="nav">
+              <span class="navTwo den">
+                Reviews
+              </span>
+            </span>
+          </span>
+          <span class="navWrap">
+            <span class="nav">
+              <span class="navThree den">
+                Contact
+              </span>
+            </span>
+          </span>
+          <span class="navWrap">
+            <span class="nav">
+              <span class="navFive den">
+                About
+              </span>
+            </span>
+          </span>
+          <span class="navWrap">
+            <span class="nav">
+              <span class="navH den">
+                Home
+              </span>
+            </span>
+          </span>
+        </div>
+    </div>
 
 		</div>
 

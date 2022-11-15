@@ -507,3 +507,173 @@ font-size: var(--font-size-3);
                 width:20vw;
   }
 }
+#organizer{
+  background-color: rgba(255,255,255,.7);
+  max-width:110vmin;
+  margin:auto;
+  border-radius: var(--radius-4);
+  box-shadow: var(--shadow-4);  /* inner-shadow? */
+  font-family:var(--font-sans);
+  position:relative;
+  top:30vmin;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.buttonHolder{
+  display: flex;
+  justify-content:center;
+  text-align:center;
+	align-items: center;
+  margin:auto;
+  z-index:1;
+  width:90vmin;
+  padding:20px;
+  transition: 0.8s ease;
+}
+
+.button {
+  display: block;
+  position: relative;
+  padding: 1.5em 3em;
+  border: 0;
+  color: #70615d;
+  background-color:#FDF8F2;
+  letter-spacing:2px;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 2px #70615d;
+  transition: 0.8s ease;
+}
+.button:hover {
+  background: #E3DFD9;
+  transition: 0.8s ease;
+}
+.button::before, .button::after {
+  content: '';
+    position: absolute;
+    background: #70615d;
+    height: 2px;
+    top: 27px; /*prevents refreshing to wiggle them*/
+    transition: 0.8s ease;
+}
+.button::before{
+  left: 100%;
+  right: -15%;
+  transition: 0.8s ease;
+}
+.button::after{
+  right: 100%;
+  left: -15%;
+  transition: 0.8s ease;
+}
+.buttonHolder:hover > .button::before{
+  left: 100%;
+  right: -30%;
+}
+.buttonHolder:hover > .button::after{
+  right: 100%;
+  left: -30%;
+}
+
+@media screen and (max-width:620px){
+  .buttonHolder:hover > .button::before{
+    left: 100%;
+    right: -15%;
+  }
+  .buttonHolder:hover > .button::after{
+    right: 100%;
+    left: -15%;
+  }
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(71,59,56,0.4);
+}
+.modalContent{
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 60vw;
+  box-shadow: var(--shadow-4);
+  background-color: white;
+  border-radius: var(--radius-4);
+  box-shadow: var(--shadow-4);  /* inner-shadow? */
+  font-family:var(--font-sans);
+}
+#modalStuff{
+  padding:1em;
+}
+
+.close{
+  color: #818181;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  transition: .5s;
+  background-color:white;
+}
+.close:hover, .close:focus{
+  color: #70615d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icons{
+  fill:url('#linDef');
+  padding:20px;
+  height:20vmin;
+  width:20vmin;
+  transition:.5s;
+}
+@media screen and (max-width: 850px) and (min-height:400px){
+  .organizer{
+  }
+}
+.icons:hover{
+  transform: scale(1.15);
+}
+.buttonFill {
+  display: block;
+    position: relative;
+  color: rgb(75,75,75);
+  white-space: nowrap;
+  vertical-align:middle;
+}
+#setPlace{
+  height:100%;
+  margin-top:3px;
+  vertical-align:top;
+  transform:scale(1.2);
+  border:0;
+  background-color:inherit;
+}#icon1:hover{
+fill:url("#gradientA");
+}
+#icon2:hover{
+fill:url("#gradientB");
+}
+#icon3:hover{
+fill:url("#gradientC");
+}
+#icon4:hover{
+fill:url("#gradientD");
+}
+.input{
+min-width:90%;
+padding:10px;
+margin:10px;
+  background-color: white;
+  border-radius: var(--radius-4);
+  font-family:var(--font-sans);
+}
