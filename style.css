@@ -689,3 +689,29 @@ margin:10px;
   font-family:var(--font-sans);
   font-size: var(--font-size-5);
 }
+#head{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 20vh;
+  background-color: red;
+}
+#headTitle{
+  position: relative;
+  display: inline-block;
+  color: white;
+  top: 50%;
+  left: 2%;
+  transform: translate(0, -50%);
+}
+#headTitle::before{
+  content: '';
+  display: inline-block;
+  width: 15vh;
+  height: 15vh;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 10px;
+}
