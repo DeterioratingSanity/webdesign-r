@@ -491,19 +491,19 @@ font-size: var(--font-size-3);
 @media screen and (min-width: 1400px) and (min-height: 740px){
 
   #packageOne{
-    position:relative;
-                left:15vw;top:8vh;
+    position:absolute;
+                left:15vw;top:28vh;
                 width:20vw;
   }
   #packageTwo{
-    position:relative;
-                left:40vw;top:8vh;
+    position:absolute;
+                left:40vw;top:28vh;
                 width:20vw;
   }
   #packageThree{
-    position:relative;
+    position:absolute;
                 left:65vw;
-                top:8vh;
+                top:28vh;
                 width:20vw;
   }
 }
