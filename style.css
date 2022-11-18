@@ -690,7 +690,7 @@ margin:10px;
   font-size: var(--font-size-5);
 }
 #head{
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100vw;
