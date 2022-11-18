@@ -713,7 +713,7 @@ margin:10px;
    font-family: var(--font-serif);
 }
 #headTitle::before{
-  content: '';
+  content: url('./paw.svg');;
   display: inline-block;
   width: 15vh;
   height: 15vh;
