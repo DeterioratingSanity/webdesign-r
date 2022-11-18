@@ -711,7 +711,7 @@ margin:10px;
    white-space:nowrap;
    font-weight: var(--font-weight-4);
    font-family: var(--font-serif);
- font-size: 14vmin;
+ font-size: 10vmin;
 }
 #headTitle::before{
   content: url('./paw.svg');;
