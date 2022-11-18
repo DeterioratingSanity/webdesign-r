@@ -491,17 +491,17 @@ font-size: var(--font-size-3);
 @media screen and (min-width: 1400px) and (min-height: 740px){
 
   #packageOne{
-    position:absolute;
+    position:relative;
                 left:15vw;top:8vh;
                 width:20vw;
   }
   #packageTwo{
-    position:absolute;
+    position:relative;
                 left:40vw;top:8vh;
                 width:20vw;
   }
   #packageThree{
-    position:absolute;
+    position:relative;
                 left:65vw;
                 top:8vh;
                 width:20vw;
