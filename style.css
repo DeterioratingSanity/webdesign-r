@@ -695,15 +695,22 @@ margin:10px;
   left: 0;
   width: 100vw;
   height: 20vh;
-  background-color: red;
+  background-image: var(--gradient-15);
 }
 #headTitle{
   position: relative;
   display: inline-block;
-  color: white;
   top: 50%;
   left: 2%;
   transform: translate(0, -50%);
+   background: var(--gradient-23);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   letter-spacing:4px;
+   font-variant:small-caps;
+   white-space:nowrap;
+   font-weight: var(--font-weight-4);
+   font-family: var(--font-serif);
 }
 #headTitle::before{
   content: '';
