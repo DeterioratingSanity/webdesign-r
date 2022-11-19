@@ -39,3 +39,8 @@ $('#ret').click(function(){
   window.open('./index.html', '_self');
   return false;
 })
+
+$('#headTitle').click(function(){
+  window.open('./index.html', '_self');
+  return false;
+})
