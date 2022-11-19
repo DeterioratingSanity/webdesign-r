@@ -64,18 +64,15 @@
 
             <script>
 //it works now.
-              var modal = document.getElementById("modalBox");
               $('#icon4').click(function(){
                 $('#modalBox').css("display","block");
               })
               $('.close').click(function(){
-                  $('#modalBox').css("display","none");
+                $('#modalBox').css("display","none");
               })
-              window.onclick = function(event) {
-            if (event.target == modal) {
-              modal.style.display = "none";
-            }
-          }
+							$('#modalBox').click(function(){
+								$('#modalBox').css('display','none')
+							})
             </script>
 
     <div class="head" id="toggle">

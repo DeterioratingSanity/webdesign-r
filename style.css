@@ -477,6 +477,11 @@ font-size: var(--font-size-3);
   position:relative;
   text-align:center;
   font-size: var(--font-size-3);
+  padding:10px;
+  width:80%;
+  margin:auto;
+  border: 3px solid black;
+  border-radius: var(--radius-round);
 }
 #contactRec1{
   top:70%;
@@ -605,6 +610,7 @@ font-size: var(--font-size-3);
   margin: 15% auto;
   padding: 20px;
   width: 60vw;
+  text-align:center;
   box-shadow: var(--shadow-4);
   background-color: white;
   border-radius: var(--radius-4);
@@ -670,7 +676,7 @@ fill:url("#gradientC");
 fill:url("#gradientD");
 }
 .input{
-min-width:90%;
+width:90%;
 padding:10px;
 margin:10px;
   background-color: white;
